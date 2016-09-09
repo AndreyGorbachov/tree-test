@@ -20,7 +20,7 @@ public class Main {
 		return getMaxDepth(arbitraryNode);
 	}
 	
-	private static int getMaxDepth(Node node){
+	private int getMaxDepth(Node node){
 		if (node.getChildren().size() > 0) {
 			List<Node> children = node.getChildren();
 			int maxTreeDepth = 0;
